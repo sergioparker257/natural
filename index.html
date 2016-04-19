@@ -1,0 +1,93 @@
+<!DOCTYPE html> 
+<html>
+<head>
+<meta charset="utf-8">
+<title>Aplic. Web de jQuery Mobile</title>
+<!--<link href="jquery.mobile-1.0.min.css" rel="stylesheet" type="text/css"/>
+<script src="jquery-1.6.4.min.js" type="text/javascript"></script>
+<script src="jquery.mobile-1.0.min.js" type="text/javascript"></script>-->
+
+<link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css">
+<script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
+<script src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+
+
+</head> 
+<body> 
+
+<div data-role="page" id="page">
+	<div data-role="header">
+		<h1>Dibujos animados</h1>
+	</div>
+	<div data-role="content">	
+    <img src="imagenes_1/arboles_A.png" width="250" height="400" align="center">
+    <img src="imagenes_1/cubos_B.png" width="250" height="400" align="center">
+<h2>Bienvenidos</h2>
+<ul data-role="listview">
+		<li><a href="#infonue" data-transition="flow">Imagenes_fondos de pantalla</a></li>
+            <li><a href="#animales" data-transition="flow">Imagenes_animales</a></li>
+			<li><a href="#paisajes" data-transition="flow">Imagenes_paisajes</a></li>
+		</ul>		
+	</div>
+	<div data-role="footer" data-fullscreen="true" data-position="fixed" align="center"> Animaciones.com  </div>
+</div>
+
+<div data-role="page" id="infonue">
+	<div data-role="header">
+    <a data-role="button" data-rel="back" data-direction="reverse" data-icon="back" >BACK</a>
+		<h1>Imagenes_fondos de pantalla </h1>
+	</div>
+	<div data-role="content">	
+		Fondos:  <br>
+        <DIV>
+        Superman & Batman<br>
+   	 		<img src="imagenes_1/superman_21_E.png" width="200" height="300">
+    		<img src="imagenes_1/okay.png" width="200" height="300">
+        <img src="imagenes_1/cubos.png" width="200" height="300"><BR>
+        </DIV>
+     <div data-role="footer" data-fullscreen="true" data-position="fixed" align="center">Animaciones.com</div>
+	</div>
+    
+	</div>
+</div>
+
+<div data-role="page" id="animales">
+	<div data-role="header">
+     <a data-role="button" data-rel="back" data-direction="reverse" data-icon="back" >BACK</a>
+		<h1>Imagenes_animales</h1>
+	</div>
+	<div data-role="content">	
+		Animales: <br>
+        <DIV>
+        animales terrestres & acuaticos<br>
+   	 		<img src="imagenes_1/delfines_1.png" width="200" height="300">
+            <img src="imagenes_1/leon_1.png" width="200" height="300">
+            <img src="imagenes_1/leopardo_1.png" width="200" height="300"><BR>
+        </DIV>
+         <div data-role="footer" data-fullscreen="true" data-position="fixed" align="center">Animaciones.com</div>
+     </div>
+     
+	</div>
+</div>
+
+<div data-role="page" id="paisajes">
+	<div data-role="header">
+     <a data-role="button" data-rel="back" data-direction="reverse" data-icon="back" >BACK</a>
+		<h1>Imagenes_paisajes</h1>
+	</div>
+	<div data-role="content">	
+        Paisajes: <br>
+    	<DIV>
+		Naturales<br>
+            <img src="imagenes_1/paisajes_1.png" width="200" height="300">
+            <img src="imagenes_1/paisajes_2.png" width="200" height="300">
+            <img src="imagenes_1/paisajes_3.png" width="200" height="300">
+        </DIV>
+    	<div data-role="footer" data-fullscreen="true" data-position="fixed" align="center">Animaciones.com</div>    
+    </div>
+    
+	</div>
+</div>
+
+</body>
+</html>
